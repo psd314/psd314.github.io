@@ -47,6 +47,12 @@ li a {
 	color: #a2a7b9;
 }
 
+li a:hover {
+	color: #4aaaa5;
+	font-size: 20px;
+	font-weight: bold;
+}
+
 footer p {
 	margin-top: 34px;
 }
@@ -249,4 +255,11 @@ input[type="submit"] {
 	border-radius: 5px;
 	margin: 10px 0 10px 0;
 	font-size: 20px	;
+}
+
+input[type="submit"]:hover {
+	border: 2px solid #4aaaa5;
+	padding: 13px 28px;
+	color: #4aaaa5;
+	background: #fff;
 }
